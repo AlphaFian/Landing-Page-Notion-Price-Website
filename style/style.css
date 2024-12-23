@@ -1,0 +1,73 @@
+@import url("fonts.css");
+:root {
+  --color-primary-5: #0e0d0b;
+  --color-primary-94: #f1f0ee;
+  --color-secondary-50: #9d34da;
+  --color-grey-100: #ffffff;
+  --color-secondary-94: #f0e1f9;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-links li {
+  display: inline;
+  margin: 0 0.25em;
+}
+.nav-links a {
+  padding: 0.75em 0.5em;
+  border-radius: 0.25em;
+  font-size: 0.75rem;
+  text-decoration: none;
+  background-color: var(--color-primary-94);
+  color: var(--color-primary-5);
+}
+.right-nav li {
+  display: inline-block;
+}
+.nav-links .black {
+  background-color: var(--color-primary-5);
+  color: var(--color-primary-94);
+}
+.logo img {
+  width: 105px;
+}
+.hero {
+  margin-top: 3em;
+  text-align: center;
+}
+.hero p {
+  font-size: 0.875rem;
+  padding: 0.75em 0.25em;
+  background-color: var(--color-secondary-94);
+  color: var(--color-secondary-50);
+  width: 154px;
+  border-radius: 31.25em;
+  margin: 0 auto;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: 4em;
+}
+.brand {
+  text-align: center;
+  align-items: center;
+}
+.brand img {
+  width: auto;
+  height: 18px;
+  margin: 0 1em;
+}
